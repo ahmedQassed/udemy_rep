@@ -29,6 +29,20 @@ import 'package:im/shared/network/local/cache_helper.dart';
 import 'package:im/shared/network/remote/dio_helper.dart';
 import 'modules/login_page/login_page.dart';
 
+// ### (lw ht8l 3la git m3 7d w h3ml login method) ###
+
+// 1. checkout master  (ell t7t 3 ymen)
+// 2. update master (fo2 3 ymen)
+// 3. create branch (t7t 3 ymen m3 elmaster)
+// 4. code....
+// 5. commit (mn fo2 3 ymen)
+// 6. checkout master
+// 7. update master
+// 8. checkout your local branch
+// 9. merge master with my current branch
+// 10. push (elli fo2 3 ymen)
+// 11. create pull request (mn github hnak)
+
 Future<void> ono(RemoteMessage message) async {
   ShowToast(text: 'on background message', c: messageColor.SUCCESS);
   print(' kkkkkk   ${message.data.toString()}');
