@@ -35,13 +35,14 @@ Future<void> ono(RemoteMessage message) async {
 }
 
 void main() async {
+  //h
   WidgetsFlutterBinding.ensureInitialized();
 
   await Firebase.initializeApp();
 
   var TOKEN = await FirebaseMessaging.instance.getToken();
 
-  print('bbbbb   ${TOKEN}');
+  print('bbbbbb   ${TOKEN}');
 
   FirebaseMessaging.onMessage.listen((event) {
     print('ssssss   ${event.data.toString()}');
