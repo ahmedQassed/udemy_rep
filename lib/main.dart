@@ -36,7 +36,6 @@ Future<void> ono(RemoteMessage message) async {
 
 void main() async {
   //h
-  //h 2
   WidgetsFlutterBinding.ensureInitialized();
 
   await Firebase.initializeApp();
